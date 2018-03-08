@@ -20,9 +20,9 @@ GPIO.setup(CNTRL_BCM, GPIO.OUT)
 CNTRL_LED = GPIO.PWM( CNTRL_BCM, 50)
 #CNTRL_LED.start(1)
 
-server = '192.168.1.140'
+server = '192.168.1.101'
 client = '192.168.1.102'
-controller = '192.168.1.123'
+controller = '192.168.1.103'
 multiplier = 7
 
 #start = time.time()
